@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/blue_background"
+    tools:context=".FindShark" >
+
+    <ImageView
+        android:id="@+id/sharkPic"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/sharks"
+        android:contentDescription="@string/desc"
+        />
+
+  	<TextView 
+  	    android:id="@+id/sharkInfo"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_marginTop="25dp"
+  	    android:layout_centerHorizontal="true"
+  	    android:textColor="@color/main_title"
+  	    android:textStyle="bold"
+  	    android:text="@string/sharkInfo"
+  	    />
+  	
+  	<Button
+  	    android:id="@+id/sharkAroundButton"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_centerHorizontal="true"
+  	    android:layout_marginTop="325dp"
+  	    android:text="@string/smAround"
+  	    />
+
+  	<Button
+  	    android:id="@+id/sharkThroughButton"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_centerHorizontal="true"
+  	    android:layout_below="@+id/sharkAroundButton"
+  	    android:layout_marginTop="5dp"
+  	    android:text="@string/smThrough"
+  	    />
+
+</RelativeLayout>

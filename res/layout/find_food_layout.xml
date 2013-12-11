@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/find_food_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_background" >
+
+    <TextView
+        android:id="@+id/message1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:padding="30dip"
+        android:text="@string/stop_travelling_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/message2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/found_food_label"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/main_title" />
+
+    <com.example.whaletrail.BouncingFoodView
+        android:id="@+id/bouncing_food_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

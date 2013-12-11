@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/group_rations" >
+        <item
+            android:id="@+id/bare_bones"
+            android:showAsAction="never"
+            android:title="Bare Bones"/>
+        <item
+            android:id="@+id/meager"
+            android:showAsAction="never"
+            android:title="Meager"/>
+        <item
+            android:id="@+id/filling"
+            android:showAsAction="never"
+            android:title="Filling"/>
+    </group>
+    <group android:id="@+id/group_pace" >
+        <item
+            android:id="@+id/steady"
+            android:showAsAction="never"
+            android:title="Steady"/>
+        <item
+            android:id="@+id/strenuous"
+            android:showAsAction="never"
+            android:title="Strenuous"/>
+        <item
+            android:id="@+id/grueling"
+            android:showAsAction="never"
+            android:title="Grueling"/>
+    </group>
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_background">#0052E0</color>
+    <color name="orange_background">#FF6200</color>
+    <color name="green_background">#00F234</color>
+    <color name="main_title">#EEEEEE</color>
+    <color name="whale">#0000FF</color>
+    <color name="death">#333333</color>
+</resources>

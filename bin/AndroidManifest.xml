@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.whaletrail"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.whaletrail.StartMenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/info_label"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/info_label" >
+        </activity>
+        <activity
+            android:name=".TravellingActivity"
+            android:label="@string/info_label" >
+        </activity>
+        <activity
+            android:name=".PreferencesActivity"
+            android:label="@string/info_label" >
+        </activity>
+        <activity
+            android:name=".DeadActivity"
+            android:label="@string/info_label" >
+        </activity>
+        <activity
+            android:name=".PickNameActivity"
+            android:label="@string/info_label" >
+        </activity>
+        <activity
+            android:name=".FindFoodActivity"
+            android:label="@string/info_label" >
+        </activity>
+        <activity
+            android:name=".LearnAboutTrailActivity"
+            android:label="@string/info_label" >
+        </activity>
+        <activity
+            android:name=".CatchingFoodActivity"
+            android:label="@string/info_label" >
+        </activity>
+        <activity
+            android:name=".Store"
+            android:label="@string/info_label" >
+        </activity>
+        <activity
+            android:name=".FindMermaid"
+            android:label="@string/title_activity_find_mermaid" >
+        </activity>
+        <activity
+            android:name=".MermaidThrough"
+            android:label="@string/title_activity_mermaid_through" >
+        </activity>
+        <activity
+            android:name=".WinActivity"
+            android:label="@string/title_activity_win" >
+        </activity>
+        <activity
+            android:name=".FindWreck"
+            android:label="@string/title_activity_find_wreck" >
+        </activity>
+        <activity
+            android:name=".Around"
+            android:label="@string/title_activity_around" >
+        </activity>
+        <activity
+            android:name=".WreckThrough"
+            android:label="@string/title_activity_wreck_through" >
+        </activity>
+        <activity
+            android:name=".FindShark"
+            android:label="@string/title_activity_find_shark" >
+        </activity>
+        <activity
+            android:name=".SharkThrough"
+            android:label="@string/title_activity_shark_through" >
+        </activity>
+        <activity
+            android:name=".CatchFishActivity"
+            android:label="@string/title_activity_shark_through" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,124 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blue_background" >
+
+    <TableLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/main_title" />
+
+        <TextView
+            android:id="@+id/healthText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/main_title" />
+
+        <TextView
+            android:id="@+id/locationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="start"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/main_title" />
+
+        <TextView
+            android:id="@+id/dayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/day_label"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/main_title" />
+
+        <TextView
+            android:id="@+id/moneyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moneyText"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/main_title" />
+
+        <TextView
+            android:id="@+id/foodText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/foodText"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/main_title" />
+
+        <TextView
+            android:id="@+id/paceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/paceText"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/main_title" />
+
+        <TextView
+            android:id="@+id/rationsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rationsText"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/main_title" />
+
+        <TextView
+            android:id="@+id/message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Welcome!"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/buy_button"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:background="@drawable/buy_icon"
+            android:contentDescription="buy" />
+
+        <ImageButton
+            android:id="@+id/fish_button"
+            android:layout_width="65dp"
+            android:layout_height="75dp"
+            android:background="@drawable/fishing_icon"
+            android:contentDescription="go fish" />
+
+        <ImageButton
+            android:id="@+id/settings_button"
+            android:layout_width="66dp"
+            android:layout_height="75dp"
+            android:background="@drawable/settings_icon"
+            android:contentDescription="settings" />
+
+        <ImageButton
+            android:id="@+id/continue_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/continue_icon"
+            android:contentDescription="continue" />
+    </LinearLayout>
+
+</FrameLayout>

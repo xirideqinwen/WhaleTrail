@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:key="PACE"
+        android:title="Change Pace"
+        android:summary="A faster pace moves you through the game more quickly but is more strenuous on your family"
+        android:entries="@array/pace_options" 
+        android:entryValues="@array/pace_values"
+        android:dialogTitle="Pace" android:defaultValue="1" />
+    <ListPreference android:key="RATION"
+        android:title="Change Rations"
+        android:summary="More food will keep your family healthy...just make sure you don't run out!"
+        android:entries="@array/ration_options" 
+        android:entryValues="@array/ration_values"
+        android:dialogTitle="Pace" android:defaultValue="1" />
+</PreferenceScreen>

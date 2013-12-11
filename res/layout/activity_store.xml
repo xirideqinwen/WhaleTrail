@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Store" >
+
+    <TextView
+        android:id="@+id/welcomeToStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/welcomeToStore"
+        android:textColor="@color/main_title" />
+
+    <TextView
+        android:id="@+id/storeInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomeToStore"
+        android:layout_marginTop="10dp"
+        android:text="@string/storeInformation"
+        android:textColor="@color/main_title" />
+
+    <TextView
+        android:id="@+id/purchaseWhaleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/storeInformation"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/purchaseWhaleText"
+        android:textColor="@color/main_title" />
+
+    <Button
+        android:id="@+id/buyWhale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/purchaseWhaleText"
+        android:layout_marginLeft="150dp"
+        android:text="@string/buyButton" />
+
+    <TextView
+        android:id="@+id/amountOfWhale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/purchaseWhaleText"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/buyWhale"
+        android:text="@string/amountOfWhale" />
+
+    <TextView
+        android:id="@+id/purchaseFoodText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/purchaseWhaleText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/purchaseFoodText"
+        android:textColor="@color/main_title" />
+
+    <Button
+        android:id="@+id/buyFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/purchaseFoodText"
+        android:layout_marginLeft="150dp"
+        android:text="@string/buyButton" />
+
+    <TextView
+        android:id="@+id/amountOfFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/purchaseFoodText"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/buyFood"
+        android:text="@string/amountOfFood" />
+
+    <TextView
+        android:id="@+id/purchaseClothesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/purchaseFoodText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/purchaseClothesText"
+        android:textColor="@color/main_title" />
+
+    <Button
+        android:id="@+id/buyClothes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/purchaseClothesText"
+        android:layout_marginLeft="150dp"
+        android:text="@string/buyButton" />
+
+    <TextView
+        android:id="@+id/amountOfClothes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/purchaseClothesText"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/buyClothes"
+        android:text="@string/amountOfClothes" />
+
+    <TextView
+        android:id="@+id/moneyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/purchaseClothesText"
+        android:layout_marginTop="30dp"
+        android:text="@string/moneyText"
+        android:textColor="@color/main_title" />
+
+    <TextView
+        android:id="@+id/amountOfMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/moneyText"
+        android:layout_toRightOf="@+id/moneyText"
+        android:text="@string/amountOfMoney"
+        android:textColor="@color/main_title" />
+
+    <Button
+        android:id="@+id/letsGoFromStoreButton"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/moneyText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/continue_icon" />
+
+    <ImageView
+        android:id="@+id/friendlyFish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/letsGoFromStoreButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/friendly_fish" />
+
+</RelativeLayout>
